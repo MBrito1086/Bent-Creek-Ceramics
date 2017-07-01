@@ -1,0 +1,288 @@
+html {
+  font-family: Merriweather, Roboto;
+
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  background-color: #FFFFFF;
+  /*justify-content: flex-end;*/
+  /*align-items: center;*/
+  /*align-content: center;*/
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  color: #2B2F26;
+  /*align-items: center;*/
+  position: relative;
+  left: 35%;
+  /*align-content: center;*/
+  /*justify-content: flex-end;*/
+  padding: 1em;
+
+}
+
+a:hover {
+  color: #CD5D67;
+}
+
+a:active {
+  color: #968772
+}
+
+#logo {
+  display: flex;
+  /*margin-right: 35%;*/
+  height: 40px;
+  width: 40px;
+  padding-top: 5px;
+  padding-left: 5px;
+  /*justify-content: flex-start;*/
+}
+
+.main {
+  background-color: #F2F1E8;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.title {
+  max-height: 11em;
+  /*display: flex;*/
+  /*align-items: center;*/
+}
+
+.title h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: 400;
+  margin-top: 1.5em;
+  margin-bottom: 0;
+}
+
+.title span {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 200;
+  padding-bottom: 1em;
+  /*position: relative;
+  top: -35px;*/
+
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  bottom: -4em;
+}
+
+.first-slide {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.first-slide img {
+  width: 809px;
+  object-fit: cover;
+  height: 420px;
+  padding: 1em;
+
+}
+
+.first-slide span {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  padding: 1em;
+  display: flex;
+  width: 170px;
+  justify-content: center;
+  position: relative;
+  left: 1em;
+  top: -5em;
+}
+
+.second-slide {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-slide img {
+  /*padding: 1em;*/
+  object-fit: cover;
+  height: 420px;
+  width: 269px;
+  padding-top: 1em;
+}
+
+.second-slide span {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 35px;
+  top: -4em;
+}
+
+.third-slide {
+  display: flex;
+  flex-direction: column;
+}
+
+.third-slide img {
+  padding: 1em;
+  width: 269px;
+  height: 420px;
+  object-fit: cover;
+  padding: 1em;
+}
+
+.third-slide span {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  padding: 1em;
+  display: flex;
+  width: 70px;
+  justify-content: center;
+  position: relative;
+  left: 1em;
+  top: -5em;
+}
+
+.last {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: -3em;
+}
+
+.fourth-slide {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 5%;
+}
+
+.fourth-slide img {
+  width: 270px;
+  height: 280px;
+  object-fit: cover;
+  padding: 1em;
+
+}
+
+.fourth-slide span {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  padding: 1em;
+  display: flex;
+  width: 80px;
+  justify-content: center;
+  position: relative;
+  left: 1em;
+  top: -5em;
+}
+
+.fifth-slide {
+  display: flex;
+  flex-direction: column;
+}
+
+.fifth-slide img {
+  /*padding: 1em;*/
+  object-fit: cover;
+  width: 270px;
+  height: 280px;
+  padding-top: 1em;
+}
+
+.fifth-slide span {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  padding: 1em;
+  display: flex;
+  width: 160px;
+  justify-content: center;
+  position: relative;
+  top: -4em;
+}
+
+.sixth-slide {
+  display: flex;
+  flex-direction: column;
+}
+
+.sixth-slide img {
+  padding: 1em;
+  width: 522px;
+  height: 280px;
+  object-fit: cover;
+  padding: 1em;
+}
+
+.sixth-slide span {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  padding: 1em;
+  display: flex;
+  width: 130px;
+  justify-content: center;
+  position: relative;
+  left: 1em;
+  top: -5em;
+}
+
+.seventh-slide {
+  display: flex;
+  flex-direction: column;
+}
+
+.seventh-slide img {
+  padding-right: 1em;
+  padding-top: 1em;
+  width: 270px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.seventh-slide span {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  padding: 1em;
+  display: flex;
+  width: 170px;
+  justify-content: center;
+  position: relative;
+  top: -4em;
+}
+
+footer {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  padding: 3em 0 3em 2em;
+  position:relative;
+  /*top: -3em;*/
+  margin: 0;
+}
