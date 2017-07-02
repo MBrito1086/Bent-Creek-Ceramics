@@ -41,7 +41,7 @@ a:hover {
 }
 
 a:active {
-  color: #968772
+  color: #968773;
 }
 
 #logo {
@@ -285,4 +285,151 @@ footer {
   position:relative;
   /*top: -3em;*/
   margin: 0;
+}
+
+.community h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: 400;
+  margin-top: 1.5em;
+}
+
+.study {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.birdhouse img {
+  float: left;
+  height: 120px;
+  width: 160px;
+  padding: 0 1.5em 1.5em 0;
+}
+
+.birdhouse {
+  margin-left: 25%;
+  margin-bottom: 2em;
+  width: 52%;
+}
+
+.birdhouse p {
+  line-height: 200%;
+}
+
+.quote {
+  border-left: 1px solid #8B7962;
+  padding-left: 4em;
+  margin-left: 25%;
+  line-height: 200%;
+  margin-bottom: 2em;
+  width: 46%;
+}
+
+.history {
+  margin-left: 25%;
+  width: 52%;
+  margin-bottom: 2em;
+}
+
+.history h2 {
+  font-weight: 200;
+}
+
+.history p {
+  line-height: 200%;
+}
+
+.grow {
+  display: flex;
+  flex-direction: column;
+}
+
+.grow img {
+  display: flex;
+  width: 100%;
+  height: 20em;
+  object-fit: cover;
+}
+
+.grow span {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: -4em;
+}
+
+.half {
+  display: flex;
+  flex-direction: row;
+}
+
+.facilities {
+  margin-top: -3em;
+  margin-left: 25%;
+  width: 35%;
+  margin-bottom: 4em;
+  display: flex;
+  flex-direction: column;
+}
+
+.facilities h2 {
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+.facilities p {
+  line-height: 200%;
+}
+
+.shelf {
+  width:12%;
+  padding-top: 1em;
+}
+
+.shelf ul li {
+  list-style: none;
+}
+
+.shelf li img {
+  width: 130%;
+  height: 130%;
+  padding-bottom: 10px;
+}
+
+.shelf li:last-of-type {
+  font-size: 10px;
+}
+
+.plans {
+  margin-top: -3em;
+  margin-left: 25%;
+  width: 45%;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.plans h2 {
+  font-weight: 200;
+}
+
+.plans table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.plans thead {
+  text-align: center;
+}
+.plans td {
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.tr-color {
+  background-color: #F2EADD;
 }
