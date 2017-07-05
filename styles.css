@@ -36,6 +36,8 @@ body {
   /*justify-content: flex-end;*/
   padding: 1em;
   text-transform: uppercase;
+  transition-property: all;
+  transition-duration: 1s;
 }
 
 a:hover {
@@ -531,10 +533,13 @@ form {
   position: relative;
   top: -1.5em;
   font-size: 20px;
+  transition-property: all;
+  transition-duration: 1s;
 }
 
 #nameInput:focus {
   border-bottom: 3px solid #967343;
+  transition-property:
 }
 
 #emailInput {
@@ -559,6 +564,8 @@ form {
   color: #F2F1E8;
   font-size: 20px;
   margin-left: 40%;
+  transition-property: background;
+  transition-duration: 1s;
 }
 
 #signupButton:hover {
